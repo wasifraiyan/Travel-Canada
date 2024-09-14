@@ -1,0 +1,175 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  
+  .section-search input {
+      padding: 5px !important;
+      font-size: 18px !important;
+      width: 90% !important;
+      border: #030303 3px solid !important;
+  }
+  
+  
+  
+  .box{
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      margin: 10px;
+      box-sizing: border-box;
+      display: inline-block
+  }
+  
+  .box .imgBox{
+      position: relative;
+      overflow: hidden;
+  }
+  
+  .box .imgBox img{
+      max-width: 100%;
+      transition: transform 2s;
+  }
+  
+  .box:hover .imgBox img{
+      transform: scale(1.2)
+  }
+  
+  
+  .box .details{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      bottom: 10px;
+      right: 10px;
+      background: rgba(237, 236, 236, 0.8);
+      transform: scaleX(0);
+      transition: transform .5s;
+      font-size: 0.8em
+  }
+  
+  .box:hover .details{
+      transform: scaleX(1);
+  }
+  
+  .box .details .content{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 15px;
+      text-align: center;
+      color: #760000;
+      
+  }
+  
+  .box .details .content h2{
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      color: rgb(115, 128, 115);
+  }
+  
+  .box .details .content p{
+      margin: 10px 0 0;
+      padding: 0;
+      }
+  
+  
+  /*animations*/
+  .keyword{
+      color: #7d7a7aad !important;
+      text-align: center;
+      letter-spacing: 3px;
+      font-weight: 800;
+      font-family: 'Poppins', sans-serif;
+      font-size: 2em;
+      
+  }
+  .keyword:before{
+      content: '';
+      animation: animate infinite 9s;
+  }
+  
+  @keyframes animate{
+      0%{
+          content: 'Toronto';
+      }
+      20%{
+          content: 'Vancouver';
+      }
+      40%{
+          content: 'Banff';
+      }
+      60%{
+          content: 'Montreal';
+      }
+      80%{
+          content: 'Niagara Falls';
+      }
+      100%{
+          content: 'Jasper';
+      }
+  }
+  
+  .slides{
+      height: 100vh
+  }
+  
+  .card-panel{
+      height: 310px;
+  }
+  
+  .card-title{
+       background:rgba(128, 3, 3, 0.4);
+      width: 100%; 
+      text-align: center;"
+  }
+  
+  .card-content{
+      font-family: 'Montserrat', sans-serif;
+  }
+  
+  .fa-twitter .fa-facebook .fa-instagram .fa-pinterest{
+      transition: color 1s;
+  }
+  
+  .fa-twitter:hover{
+      color: #020305;
+  }
+  
+  .fa-facebook:hover{
+      color: #005aae;
+  }
+  
+  .fa-instagram:hover{
+     color: rgb(155, 12, 131);
+  color: radial-gradient(circle, rgba(128,0,187,1) 0%, rgba(213,218,30,1) 23%);
+  /*    color: rgb(59,0,123);*/
+  }
+  
+  .fa-pinterest:hover{
+      color: rgb(255, 0, 0);
+  }
+  
+  .section-search {
+      position: relative;
+  }
+  
+  .searchBar{
+      position: absolute
+  }
+  
+  .section-search, .section-popular, .section-gallery {
+      padding-top: 2.5rem !important;
+      padding-bottom: 1rem !important;
+  }
+  
+  . fa-color{
+      
+  }
+  
+  
+  
+  
+  
+  
